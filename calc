@@ -25,7 +25,7 @@ def main(input: str) -> str:
     elif operator == "/":
         if b == 0:
             raise ZeroDivisionError("throws Exception")
-        result = a // b  # Целочисленное деление
+        result = a // b  
     else:
         raise ValueError("throws Exception")
 
